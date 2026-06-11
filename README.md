@@ -24,13 +24,26 @@ Landing oficial desarrollada con tecnologías modernas para representar la ident
 
 ---
 
-## Roadmap
+## 🗺️ Roadmap
 
-- v0.3 → Mejoras y Correccion.
-- v0.4 → Portafolio interactivo
-- v0.5 → Optimización SEO
-- v1.0 → Release oficial
+### v0.3
+- 🔄 Mejoras visuales
+- 🔄 Corrección y optimización del CSS
+- 🔄 Revisión responsive
+- 🔄 Pulido general
+
+### v0.4
+- 📂 Mejor organización del proyecto
+- 🎨 Branding y favicon
+- 🌐 Publicación en GitHub Pages
+
+### v0.5
+- ⚡ Optimización SEO
+- 📈 Mejoras de rendimiento
+
+### v1.0
+- 🚀 Release oficial
 
 ---
 
-Construyamos el futuro, una línea de código a la vez.
+> **Construyamos el futuro, una línea de código a la vez.**
