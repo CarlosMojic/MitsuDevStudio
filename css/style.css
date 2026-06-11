@@ -1,4 +1,3 @@
-
 *{
 
     margin:0;
@@ -196,6 +195,34 @@ body{
 
 }
 
+.hero-stats{
+
+    display:flex;
+
+    gap:40px;
+
+    margin-top:50px;
+
+}
+
+.hero-stats h3{
+
+    color:#2563EB;
+
+    font-size:2rem;
+
+    margin-bottom:5px;
+
+}
+
+.hero-stats span{
+
+    color:#64748B;
+
+    font-size:.9rem;
+
+}
+
 .tech-item{
 
     padding:14px;
@@ -291,9 +318,11 @@ body{
 
 .service-card:hover{
 
-    transform:translateY(-12px);
+    transform: translateY(-8px);
 
     border-color:#DBEAFE;
+
+    box-shadow: 0 15px 40px rgba(37,99,235,.15);
 
 }
 
@@ -314,6 +343,7 @@ body{
     font-weight:600;
 
 }
+
 
 
 
@@ -416,6 +446,26 @@ body{
     margin:20px 0;
 
     font-weight:600;
+
+}
+
+.service-card,
+.tech-card,
+.process-card,
+.portfolio-card,
+.hero-card{
+
+    transition:.35s;
+
+}
+
+.service-card:hover,
+.tech-card:hover,
+.process-card:hover,
+.portfolio-card:hover,
+.hero-card:hover{
+
+    transform:translateY(-8px);
 
 }
 
@@ -1071,5 +1121,43 @@ footer p{
     bottom:-120px;
 
     opacity:.6;
+
+}
+
+/*==================================
+            HERO TAG
+==================================*/
+
+.hero-tag{
+
+    display:inline-block;
+
+    padding:12px 22px;
+
+    background:#DBEAFE;
+
+    color:#2563EB;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+    font-size:.95rem;
+
+}
+
+/*==================================
+            NAVBR PREMIUM
+==================================*/
+
+.navbar{
+
+    background:rgba(255,255,255,.82);
+
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid rgba(255,255,255,.5);
 
 }
