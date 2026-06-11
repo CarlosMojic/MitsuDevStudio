@@ -26,7 +26,7 @@ Landing oficial desarrollada con tecnologías modernas para representar la ident
 
 ## Roadmap
 
-- v0.3 → Dark Mode
+- v0.3 → Mejoras y Correccion.
 - v0.4 → Portafolio interactivo
 - v0.5 → Optimización SEO
 - v1.0 → Release oficial
