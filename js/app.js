@@ -4,20 +4,17 @@
 //
 //==================================
 
-
 // Navbar Scroll
 
-window.addEventListener("scroll",()=>{
+window.addEventListener("scroll", () => {
 
-    const navbar=document.querySelector(".navbar");
+    const navbar = document.querySelector(".navbar");
 
-    if(window.scrollY>50){
+    if (window.scrollY > 30) {
 
         navbar.classList.add("scrolled");
 
-    }
-
-    else{
+    } else {
 
         navbar.classList.remove("scrolled");
 
@@ -27,13 +24,17 @@ window.addEventListener("scroll",()=>{
 
 
 
-// Animaciones
+//==================================
+//
+// Fade Animation
+//
+//==================================
 
-const observer=new IntersectionObserver(entries=>{
+const observer = new IntersectionObserver((entries) => {
 
-    entries.forEach(entry=>{
+    entries.forEach((entry) => {
 
-        if(entry.isIntersecting){
+        if (entry.isIntersecting) {
 
             entry.target.classList.add("show");
 
@@ -43,9 +44,7 @@ const observer=new IntersectionObserver(entries=>{
 
 });
 
-
-
-document.querySelectorAll(".fade-up").forEach(element=>{
+document.querySelectorAll(".fade-up").forEach((element) => {
 
     observer.observe(element);
 
