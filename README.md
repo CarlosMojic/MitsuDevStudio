@@ -4,15 +4,22 @@
 
 MitsuDev Studio es una landing page moderna desarrollada como proyecto de portafolio y futura carta de presentación para ofrecer servicios de desarrollo web a pequeños y medianos negocios.
 
-## ✨ Estado del proyecto
+## 🌐 Demo
 
-**Versión actual:** `v0.3 Premium UI (En desarrollo)`
-
-La versión 0.3 está enfocada en mejorar la experiencia visual, la organización del código y la calidad general del proyecto antes de su primera versión estable.
+**GitHub Pages:**
+https://carlosmojic.github.io/MitsuDevStudio/
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+# ✨ Estado del proyecto
+
+**Versión actual:** **v0.3 Stable** 🟢
+
+La versión 0.3 representa la primera versión estable del proyecto, enfocada en una interfaz moderna, código organizado y una experiencia responsive lista para producción y futuras mejoras.
+
+---
+
+# 🛠️ Tecnologías utilizadas
 
 * HTML5
 * CSS3
@@ -20,15 +27,16 @@ La versión 0.3 está enfocada en mejorar la experiencia visual, la organizació
 * Bootstrap 5
 * Git
 * GitHub
+* GitHub Pages
 
 ---
 
-## 🎯 Características implementadas
+# 🎯 Características implementadas
 
 * ✅ Navbar moderna y responsive
 * ✅ Hero principal optimizado
-* ✅ Sección de servicios
-* ✅ Sección de tecnologías
+* ✅ Sección de Servicios
+* ✅ Sección de Tecnologías
 * ✅ Proceso de trabajo
 * ✅ Portafolio de proyectos
 * ✅ Call To Action (CTA)
@@ -36,15 +44,19 @@ La versión 0.3 está enfocada en mejorar la experiencia visual, la organizació
 * ✅ Footer personalizado
 * ✅ Diseño responsive
 * ✅ Animaciones básicas
-* ✅ Organización por ramas en Git
+* ✅ Refactor del CSS
+* ✅ Organización mediante Git Flow
+* ✅ Documentación del proyecto
+* ✅ Despliegue en GitHub Pages
 
 ---
 
-## 📂 Estructura del proyecto
+# 📂 Estructura del proyecto
 
 ```text
 MitsuDevStudio/
 
+├── assets/
 ├── css/
 │   ├── style.css
 │   └── responsive.css
@@ -52,46 +64,67 @@ MitsuDevStudio/
 ├── js/
 │   └── app.js
 │
-├── assets/
-│
 ├── index.html
-│
-└── README.md
+├── README.md
+├── CHANGELOG.md
+└── LICENSE
 ```
 
 ---
 
-## 📌 Roadmap
+# 📌 Roadmap
 
-### v0.3
+## ✅ v0.3 Stable
 
-* [x] Hero mejorado
-* [x] Refactor inicial del CSS
-* [x] Optimización de componentes
-* [x] Mejoras visuales generales
-* [ ] Ajustes finales del Footer
-* [ ] Revisión responsive
-* [ ] Favicon
-* [ ] Publicación en GitHub Pages
+* Landing Premium
+* Refactor del CSS
+* Responsive mejorado
+* Hero optimizado
+* Portafolio
+* Contacto
+* GitHub Pages
+* README
+* CHANGELOG
+* MIT License
+
+## 🔜 v0.4 Branding
+
+* Logo oficial
+* Favicon
+* Assets del proyecto
+* Open Graph
+* Imagen Preview
+* Mejoras de identidad visual
+
+## 🔜 v0.5 SEO & Performance
+
+* Optimización SEO
+* Performance
+* Accesibilidad
+* Mejoras de carga
+
+## 🎯 v1.0 Official Release
+
+Versión oficial de MitsuDev Studio como carta de presentación profesional.
 
 ---
 
-## 💡 Filosofía
+# 💡 Filosofía
 
 No buscamos crear simplemente una página web.
 
-Buscamos desarrollar experiencias digitales modernas, limpias y fáciles de mantener, aplicando buenas prácticas de desarrollo y una mejora continua en cada versión.
+Buscamos desarrollar experiencias digitales modernas, limpias y fáciles de mantener, aplicando buenas prácticas de desarrollo, una arquitectura organizada y una mejora continua en cada versión.
 
 ---
 
-## 👨‍💻 Autor
+# 👨‍💻 Autor
 
 **Carlos Mojica**
 
-Proyecto desarrollado como parte del crecimiento profesional y del portafolio de desarrollo web.
+Proyecto desarrollado como parte del crecimiento profesional y del portafolio personal de desarrollo web.
 
 ---
 
-## 🚀 Lema
+# 🚀 Lema
 
-**Construyamos el futuro, una línea de código a la vez.**
+> **Construyamos el futuro, una línea de código a la vez.**
